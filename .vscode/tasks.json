@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+		"tasks": [
+			{
+				"type": "cppbuild",
+				"label": "C/C++: clang build active file",
+				"command": "/usr/bin/clang",
+				"args": [
+					"-fcolor-diagnostics",
+					"-fansi-escape-codes",
+					"-g",
+					"${file}",
+					"-o",
+					"${fileDirname}/${fileBasenameNoExtension}"
+				],
+				"options": {
+					"cwd": "${fileDirname}"
+				},
+				"problemMatcher": [
+					"$gcc"
+				],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				},
+				"detail": "compiler: /usr/bin/clang"
+			},
+			{
+				"type": "shell",
+				"label": "Compile and run SFML",
+				"command": "g++ -c Game.cpp && g++ Game.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system && ./sfml-app",
+				"problemMatcher": []
+			},
+			{
+				"label": "Echo workspace folder",
+				"type": "shell",
+				"command": "echo ${workspaceFolder}",
+				"problemMatcher": [],
+				"group": {
+					"kind": "none",
+					"isDefault": false
+				}
+			}
+		]
+		  
+	}
+
