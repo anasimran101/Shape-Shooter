@@ -64,3 +64,8 @@ Shape Vertices      V               int
 Lifespan            L               int
 
 Note: If you intend to compile and run the binary file, run installer first as the binary file loads data files after installer copies them to the intended path
+
+Demo:
+
+![Demo Screenshot](dat/demo/demo1.png)
+
