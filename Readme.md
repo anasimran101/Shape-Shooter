@@ -68,4 +68,7 @@ Note: If you intend to compile and run the binary file, run installer first as t
 Demo:
 
 ![Demo Screenshot](dat/demo/demo1.png)
+![Demo Screenshot](dat/demo/demo2.png)
+![Demo Screenshot](dat/demo/demo3.png)
+![Demo Screenshot](dat/demo/demo4.png)
 
